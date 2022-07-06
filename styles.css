@@ -63,7 +63,7 @@ body {
 
 /*styles for the donate section*/
 
-.donate-intro {
+.section-intro {
     text-align:center;
     margin:60px 0px 0px 0px;
     align-items: center;
@@ -136,16 +136,45 @@ body {
 .donate-plans-container {
     display:flex;
     width:80%;
+    justify-content: space-between;
+    margin:auto;
 }
 
 .plan-cards {
     width:33%;
-    height:352px;
+    height:300px;
+    margin: 60px 10px 0px 10px;
 }
 
 .plan-cards-fst {
+    background-color:rgba(79, 157, 166, 0.1)
+}
 
-     background-color: #4F9DA6;   
+.plan-cards-sec {
+    background-color:rgba(255, 89, 140, 0.1) ;
+}
+
+.plan-cards-th {
+    background-color: rgba(255, 244, 214, 1);
+}
+
+.icon-box {
+    list-style: none;
+}
+
+.icon-box-item img{
+    width:53px;
+    height:53px;
+}
+
+.icon-box-title {
+    color:#121212;
+}
+
+.icon-box-desc {
+    color:#707070;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 
